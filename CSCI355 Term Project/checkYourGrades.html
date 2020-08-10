@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+<nav id="navbar">
+	<ul>
+		<li class="dropdown">
+			<a href="studentHome.html" class="dropbtn">Home</a>
+		</li>
+		<li class="dropdown">
+			<a href="completeProblem.php" class="dropbtn">Complete an Assignment</a>
+		</li>
+		<li class="dropdown">
+			<a href="checkYourGrades.html" class="dropbtn">Check your Grades</a>
+		</li>
+		<li class="dropBar">
+			<a href="logout.php" class="dropItem" style="float: right; color: white;">Log out</a>
+		</li>
+	</ul>
+</nav>
+<form action="myGrades.php" method="POST">
+	<input type="text" name="name" id="name" placeholder="Enter your name">
+	<button type="submit" name="submitName", id="submitName">Submit</button>
+</form>
